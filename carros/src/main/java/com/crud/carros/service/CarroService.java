@@ -21,7 +21,7 @@ public class CarroService {
         return carroRepository.findAll();
     }
 
-    public Optional<Carro> listarCarroPorId(Long i d) {
+    public Optional<Carro> listarCarroPorId(Long id) {
         return carroRepository.findById(id);
     }
 
